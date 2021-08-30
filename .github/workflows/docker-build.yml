@@ -39,5 +39,5 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME}}/python-helloworld:latest
       - 
         name: test with pytest
-        uses: pytest
+        run: pytest
   
