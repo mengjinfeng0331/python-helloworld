@@ -2,7 +2,7 @@ name: python-helloworld
 
 on: 
   push:
-    branches: [ main ]
+    branches: [ main]
   pull_request:
     branches: [ main ]
 
@@ -37,7 +37,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME}}/python-helloworld:latest
-      - 
-        name: test with pytest
-        run: pytest
+      # - 
+        # name: test with pytest
+        # run: pytest
   
