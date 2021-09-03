@@ -1,6 +1,9 @@
 namespace:
   name: prod
 replicaCount: 2
+service:
+  port: 80
+  type: ClusterIP
 image:
   repository: nginx
   tag: 1.17.0
