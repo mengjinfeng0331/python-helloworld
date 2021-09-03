@@ -8,7 +8,7 @@ image:
 resources:
   requests:
     cpu: 50m
-    memory: 256Mi
+    mem: 256Mi
 service:
   type: ClusterIP
   port: 8111
