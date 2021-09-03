@@ -6,7 +6,6 @@ metadata:
   labels:
     app: nginx
     tag: alpine
-    
 spec:
   ports:
   - port: {{ .Values.service.port }} 
